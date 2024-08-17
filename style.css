@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.gradient{
+    background: linear-gradient(50deg, #fb3c00, #ffb800);
+color:transparent;
+background-clip: text;
+}
+.group{
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    font-size: 18px;
+    color: hsl(43, 100%, 50%);
+    font-weight: 600;
+}
+.input-box{
+    padding-left: 35px;
+    vertical-align: middle;
+    box-shadow: 0px 0px 5px 4px hsla(43, 100%, 50%, 0.1);
+    width: 200px;
+}
+.shadow-warning{
+    box-shadow: 0 0 10px 0 rgba(255,179,14,0.3) !important;
+    /* width: 120px; */
+}
+.bg-primary{
+    background-color: #FFB30E;
+}
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+.img-banner{
+    overflow:hidden;
+    position: relative;
+    display: block;
+    transition: transform 0.4s ease;
+    margin-bottom: -100px;
+    margin-top: 100px;
+}
+.img-banner img{
+    max-width: 100%;
+    height: auto;
+}
+.starving{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+.detail{
+    font-size: 2rem;
+    color: #616161;
+}
+.card-span{
+    transition: all 0.4s ease;
+    border: 0;
+}
+.card-discount{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    bottom: 0px;
+}
+.badge-foodwagon{
+    border-radius: 0 20px 0 16px;
+    line-height: 13px;
+}
+.remaining{
+    color: #f17228;
+    font-size: 19px;
+}
+.badge-background{
+    background-color: #fdeadf;
+}
+.badge-background-success{
+    background-color: #ebf5e2;
+}
+.location-section{
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 101%);
+}
+.work{
+    color: #f17228;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 64px 0px;
+
+}
+.shadow-img{
+    filter: drop-shadow(5px 5px 5px rgba(255,179,14,0.3));
+    border: 0;
+}
+.carousel-icon{
+    width: auto;
+}
+.card-span > img{
+    width: 100%;
+    height: auto;
+}
+.background-image{
+    position: relative;
+    padding: 120px 0px;
+    margin-top: 120px;
+}
+.bg-holder{
+    background-image: url(./assest/images/cta-one-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top:0px;
+    left: 0px;
+    overflow: hidden;
+    z-index: 0;
+}
+.index{
+    z-index: 1000;
+}
+.border-class{
+    border-left: 2px solid #cfcfcf;
+}
+.margin-top{
+    margin-top: 120px;
+}
+.padding-section{
+    padding-top: 128px;
+    padding-bottom:48px ;
+}
+.shadow-lg{
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.175) !important;
+    margin-bottom: 16px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.bg-deal{
+    background-image: url(./assest/images/cta-two-bg.png);
+    background-position: center;
+    /* background-size: cover; */
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:768px){
+.margin-top{
+    margin-top: 0px;
+}
+}

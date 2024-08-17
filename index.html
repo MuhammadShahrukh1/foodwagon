@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Wagon</title>
+  <link rel="stylesheet" href="./assest/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light bg-white navbar-light">
+    <div class="container">
+      <a class="navbar-brand d-inline-flex" href="#">
+        <img class="d-inline-block" src="./assest/images/logo.svg" alt="">
+        <span class="text-1000 fs-3 fw-bold ms-2 gradient">FoodwaGon</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse my-2 border-lg-0 mt-lg-0" id="navbarSupportedContent">
+        <div class="d-lg-none d-xl-block mx-auto pt-5 pt-lg-0">
+          <p class="fw-bold mb-0 text-lg-center">Delivery to:
+            <img class="mx-2" src="./assest/images/location-icon.png" alt="">
+            <span class="fw-normal">Current Location </span>
+            <span>MohammadPur Bus Stand</span>
+          </p>
+        </div>
+        <form class="d-flex mt-4 mt-lg-0 ms-lg-auto ms-xl-0" role="search">
+          <div class="group pe-2">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input class="form-control bg-100 input-box border-0 w-lg-100" type="search" placeholder="Food Search"
+              aria-label="Search">
+          </div>
+          <button class="btn btn-white shadow-warning text-warning" type="submit"><i class="fa-solid fa-user"></i>
+            Login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section class="py-6 overflow-hidden bg-warning">
+    <div class="container">
+      <div class="row flex-center">
+        <div class="col-md-5 col-lg-6 order-0 order-md-1 mt-md-0">
+          <a class="img-banner margin" href="">
+            <img src="./assest/images/hero-header.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-7 col-lg-6 py-8 text-md-start text-center">
+          <h1 class="text-light starving">Are you starving?</h1>
+          <h1 class="mb-5 detail">
+            Within a few clicks, find meals that
+            <br class="d-none d-xxl-block">
+            are accessible near you
+          </h1>
+          <div class="card">
+            <div class="card-body">
+              <nav>
+                <div class="nav nav-tabs">
+                  <button class="nav-link mb-3">
+                    <i class="fa-solid fa-truck"></i>
+                    delivery
+                  </button>
+                </div>
+              </nav>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <div class="row h-100">
+        <div class="col-sm-6 col-lg-3 mt-3 h-100">
+          <div class="card card-span h-100">
+            <div class="position-relative">
+              <img class="rounded-4 w-100" src="./assest/images/discount-item-1.png" alt="">
+              <div class="card-discount">
+                <div class="badge badge-foodwagon bg-warning p-4">
+                  <div class="d-flex justify-content-between align-items-center me-2">
+                    <div class="text-white fs-1 fw-bold">15</div>
+                    <div class="text-white fs-4 d-block">% <br>
+                      <div class="fw-normal fs-6 mt-2">Off</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body px-0">
+              <h5 class="fw-bold text-black-50">Flat Hill Slingback</h5>
+              <span class="badge badge-background py-2 px-3">
+                <span class="remaining">6 Days Remaining</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mt-3 h-100">
+          <div class="card card-span h-100">
+            <div class="position-relative">
+              <img class="rounded-4 w-100" src="./assest/images/discount-item-2.png" alt="">
+              <div class="card-discount">
+                <div class="badge badge-foodwagon bg-warning p-4">
+                  <div class="d-flex justify-content-between align-items-center me-2">
+                    <div class="text-white fs-1 fw-bold">10</div>
+                    <div class="text-white fs-4 d-block">% <br>
+                      <div class="fw-normal fs-6 mt-2">Off</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body px-0">
+              <h5 class="fw-bold text-black-50">Ocean Blue Ring</h5>
+              <span class="badge badge-background py-2 px-3">
+                <span class="remaining">6 Days Remaining</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mt-3 h-100">
+          <div class="card card-span h-100">
+            <div class="position-relative">
+              <img class="rounded-4 w-100" src="./assest/images/discount-item-3.png" alt="">
+              <div class="card-discount">
+                <div class="badge badge-foodwagon bg-warning p-4">
+                  <div class="d-flex justify-content-between align-items-center me-2">
+                    <div class="text-white fs-1 fw-bold">25</div>
+                    <div class="text-white fs-4 d-block">% <br>
+                      <div class="fw-normal fs-6 mt-2">Off</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body px-0">
+              <h5 class="fw-bold text-black-50">Brown Leathered Wallet</h5>
+              <span class="badge badge-background py-2 px-3">
+                <span class="remaining">6 Days Remaining</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mt-3 h-100">
+          <div class="card card-span h-100">
+            <div class="position-relative">
+              <img class="rounded-4 w-100" src="./assest/images/discount-item-4.png" alt="">
+              <div class="card-discount">
+                <div class="badge badge-foodwagon bg-warning p-4">
+                  <div class="d-flex justify-content-between align-items-center me-2">
+                    <div class="d-inline-block align-bottom text-white fs-1 fw-bold">20</div>
+                    <div class="text-white fs-4 d-block">% <br>
+                      <div class="fw-normal fs-6 mt-2">Off</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body px-0">
+              <h5 class="fw-bold text-black-50">Silverside Wristwatch</h5>
+              <span class="badge badge-background py-2 px-3">
+                <span class="remaining">6 Days Remaining</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-0 location-section">
+    <div class="container">
+      <div class="row justify-content-center g-0">
+        <div class="col-xl-9">
+          <div class="col-lg-6 text-center mx-auto mb-3 mt-4">
+            <h5 class="work">How does it work</h5>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-3 mb-5">
+              <div class="text-center">
+                <img class="shadow-img" src="./assest/images/location.png" alt="">
+                <h5 class="mt-4 fw-bold">Select Location</h5>
+                <p class="mb-md-0">Choose the location where your food will be delivered.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 mb-5">
+              <div class="text-center">
+                <img class="shadow-img" src="./assest/images/order.png" alt="">
+                <h5 class="mt-4 fw-bold">Choose Order</h5>
+                <p class="mb-md-0">Check over hundreds of menus to pick your favorite food.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 mb-5">
+              <div class="text-center">
+                <img class="shadow-img" src="./assest/images/pay.png" alt="">
+                <h5 class="mt-4 fw-bold">Pay Advanced</h5>
+                <p class="mb-md-0">It's quick, safe and simple. Select several methods od payment.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 mb-5">
+              <div class="text-center">
+                <img class="shadow-img" src="./assest/images/meals.png" alt="">
+                <h5 class="mt-4 fw-bold">Enjoy Meals</h5>
+                <p class="mb-md-0">Food is made and delivered directly to your home.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 overflow-hidden">
+    <div class="container">
+      <div class="row h-100">
+        <div class="col-lg-7 mx-auto text-center my-5">
+          <h5 class="fw-bold fs-1">Popular Items</h5>
+        </div>
+        <div class="row h-100 justify-content-center gx-2">
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl mb-5 h-100">
+            <div class="card card-span rounded-4">
+              <img class="rounded-4 " src="./assest/images/toffes-cake.png" alt="">
+              <div class="card-body ps-3">
+                <h5 class="fw-bold mb-1 text-truncate">Toffe's Cake</h5>
+                <div>
+                  <span class="text-warning d-inline-block me-2">
+                    <i class="fa-solid fa-location-dot fs-4"></i>
+                  </span>
+                  <span class="text-warning d-inline-block fs-5">Top's Stick</span>
+                </div>
+                <span class="text-dark fw-bold">$4.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2">
+              <a class="btn btn-lg btn-danger" href="">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl mb-5 h-100">
+            <div class="card card-span rounded-4">
+              <img class="rounded-4 " src="./assest/images/cheese-burger.png" alt="">
+              <div class="card-body ps-3">
+                <h5 class="fw-bold mb-1 text-truncate">Cheese Burger</h5>
+                <div>
+                  <span class="text-warning d-inline-block me-2">
+                    <i class="fa-solid fa-location-dot fs-4"></i>
+                  </span>
+                  <span class="text-warning d-inline-block fs-5">Burger Arena</span>
+                </div>
+                <span class="text-dark fw-bold">$3.88</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2">
+              <a class="btn btn-lg btn-danger" href="">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl mb-5 h-100">
+            <div class="card card-span rounded-4">
+              <img class="rounded-4 " src="./assest/images/dancake.png" alt="">
+              <div class="card-body ps-3">
+                <h5 class="fw-bold mb-1 text-truncate">Dancake</h5>
+                <div>
+                  <span class="text-warning d-inline-block me-2">
+                    <i class="fa-solid fa-location-dot fs-4"></i>
+                  </span>
+                  <span class="text-warning d-inline-block fs-5">Cake World</span>
+                </div>
+                <span class="text-dark fw-bold">$1.99</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2">
+              <a class="btn btn-lg btn-danger" href="">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl mb-5 h-100">
+            <div class="card card-span rounded-4">
+              <img class="rounded-4 " src="./assest/images/crispy-sandwitch.png" alt="">
+              <div class="card-body ps-3">
+                <h5 class="fw-bold mb-1 text-truncate">Crispy Sandwich</h5>
+                <div>
+                  <span class="text-warning d-inline-block me-2">
+                    <i class="fa-solid fa-location-dot fs-4"></i>
+                  </span>
+                  <span class="text-warning d-inline-block fs-5">Fastfood Dine</span>
+                </div>
+                <span class="text-dark fw-bold">$3.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2">
+              <a class="btn btn-lg btn-danger" href="">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl mb-5 h-100">
+            <div class="card card-span rounded-4">
+              <img class="rounded-4 " src="./assest/images/thai-soup.png" alt="">
+              <div class="card-body ps-3">
+                <h5 class="fw-bold mb-1 text-truncate">Thai soup</h5>
+                <div>
+                  <span class="text-warning d-inline-block me-2">
+                    <i class="fa-solid fa-location-dot fs-4"></i>
+                  </span>
+                  <span class="text-warning d-inline-block fs-5">Foody Man</span>
+                </div>
+                <span class="text-dark fw-bold">$2.79</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2">
+              <a class="btn btn-lg btn-danger" href="">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row h-100">
+        <div class="col-lg-7 mx-auto text-center my-5">
+          <h5 class="fw-bold fs-1">Featured Resturants</h5>
+        </div>
+      </div>
+      <div class="row gx-2">
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-4">
+            <img class="rounded-4" src="./assest/images/food-world.png" alt="">
+            <div class="card-img-overlay ps-0">
+              <span class="badge bg-danger px-3 py-2 ms-3"><i class="fa-solid fa-tag fs-6"></i>
+                <span class="fs-6">20% Off</span>
+              </span>
+              <span class="badge bg-warning ms-2 px-3 py-2"><i class="fa-solid fa-clock fs-6"></i>
+                <span class="fs-6">Fast</span>
+              </span>
+            </div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-4">
+                <img src="./assest/images/food-world-logo.png" alt="">
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-1 fw-bold text-dark">Food World</h5>
+                  <span class="text-warning me-1"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-warning fs-6 fw-bold">46</span>
+                </div>
+              </div>
+              <span class="badge badge-background p-2">
+                <span class="fw-bold text-danger fs-5">Opens Tomorrow</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-4">
+            <img class="rounded-4" src="./assest/images/pizza-hub.png" alt="">
+            <div class="card-img-overlay ps-0">
+              <span class="badge bg-danger px-3 py-2 ms-3"><i class="fa-solid fa-tag fs-6"></i>
+                <span class="fs-6">20% Off</span>
+              </span>
+              <span class="badge bg-warning ms-2 px-3 py-2"><i class="fa-solid fa-clock fs-6"></i>
+                <span class="fs-6">Fast</span>
+              </span>
+            </div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-4">
+                <img src="./assest/images/pizzahub-logo.png" alt="">
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-1 fw-bold text-dark">Pizza Hub</h5>
+                  <span class="text-warning me-1"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-warning fs-6 fw-bold">40</span>
+                </div>
+              </div>
+              <span class="badge badge-background p-2">
+                <span class="fw-bold text-danger fs-5">Opens Tomorrow</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-4">
+            <img class="rounded-4" src="./assest/images/donuts-hut.png" alt="">
+            <div class="card-img-overlay ps-0">
+              <span class="badge bg-danger px-3 py-2 ms-3"><i class="fa-solid fa-tag fs-6"></i>
+                <span class="fs-6">20% Off</span>
+              </span>
+              <span class="badge bg-warning ms-2 px-3 py-2"><i class="fa-solid fa-clock fs-6"></i>
+                <span class="fs-6">Fast</span>
+              </span>
+            </div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-4">
+                <img src="./assest/images/donuts-hut-logo.png" alt="">
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-1 fw-bold text-dark">Donuts Hut</h5>
+                  <span class="text-warning me-1"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-warning fs-6 fw-bold">20</span>
+                </div>
+              </div>
+              <span class="badge badge-background-success p-2">
+                <span class="fw-bold text-success fs-5">Open Now</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-4">
+            <img class="rounded-4" src="./assest/images/donuthut.png" alt="">
+            <div class="card-img-overlay ps-0">
+              <span class="badge bg-danger px-3 py-2 ms-3"><i class="fa-solid fa-tag fs-6"></i>
+                <span class="fs-6">20% Off</span>
+              </span>
+              <span class="badge bg-warning ms-2 px-3 py-2"><i class="fa-solid fa-clock fs-6"></i>
+                <span class="fs-6">Fast</span>
+              </span>
+            </div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-4">
+                <img src="./assest/images/donut-hut-logo.png" alt="">
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-1 fw-bold text-dark">Food World</h5>
+                  <span class="text-warning me-1"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-warning fs-6 fw-bold">50</span>
+                </div>
+              </div>
+              <span class="badge badge-background-success p-2">
+                <span class="fw-bold text-success fs-5">Open Now</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-4">
+            <img class="rounded-4" src="./assest/images/ruby-tuesday.png" alt="">
+            <div class="card-img-overlay ps-0">
+              <span class="badge bg-danger px-3 py-2 ms-3"><i class="fa-solid fa-tag fs-6"></i>
+                <span class="fs-6">20% Off</span>
+              </span>
+              <span class="badge bg-warning ms-2 px-3 py-2"><i class="fa-solid fa-clock fs-6"></i>
+                <span class="fs-6">Fast</span>
+              </span>
+            </div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-4">
+                <img src="./assest/images/ruby-tuesday-logo.png" alt="">
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-1 fw-bold text-dark">Food World</h5>
+                  <span class="text-warning me-1"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-warning fs-6 fw-bold">50</span>
+                </div>
+              </div>
+              <span class="badge badge-background-success p-2">
+                <span class="fw-bold text-success fs-5">Open Now</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-4">
+            <img class="rounded-4" src="./assest/images/kuakata.png" alt="">
+            <div class="card-img-overlay ps-0">
+              <span class="badge bg-danger px-3 py-2 ms-3"><i class="fa-solid fa-tag fs-6"></i>
+                <span class="fs-6">20% Off</span>
+              </span>
+              <span class="badge bg-warning ms-2 px-3 py-2"><i class="fa-solid fa-clock fs-6"></i>
+                <span class="fs-6">Fast</span>
+              </span>
+            </div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-4">
+                <img src="./assest/images/kuakata-logo.png" alt="">
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-1 fw-bold text-dark">Kuakata fried chicken</h5>
+                  <span class="text-warning me-1"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-warning fs-6 fw-bold">50</span>
+                </div>
+              </div>
+              <span class="badge badge-background-success p-2">
+                <span class="fw-bold text-success fs-5">Open Now</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-4">
+            <img class="rounded-4" src="./assest/images/red-square.png" alt="">
+            <div class="card-img-overlay ps-0">
+              <span class="badge bg-danger px-3 py-2 ms-3"><i class="fa-solid fa-tag fs-6"></i>
+                <span class="fs-6">20% Off</span>
+              </span>
+              <span class="badge bg-warning ms-2 px-3 py-2"><i class="fa-solid fa-clock fs-6"></i>
+                <span class="fs-6">Fast</span>
+              </span>
+            </div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-4">
+                <img src="./assest/images/red-square-logo.png" alt="">
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-1 fw-bold text-dark">Kuakata Fried Chicken</h5>
+                  <span class="text-warning me-1"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-warning fs-6 fw-bold">50</span>
+                </div>
+              </div>
+              <span class="badge badge-background-success p-2">
+                <span class="fw-bold text-success fs-5">Open Now</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-4">
+            <img class="rounded-4" src="./assest/images/taco-bell.png" alt="">
+            <div class="card-img-overlay ps-0">
+              <span class="badge bg-danger px-3 py-2 ms-3"><i class="fa-solid fa-tag fs-6"></i>
+                <span class="fs-6">20% Off</span>
+              </span>
+              <span class="badge bg-warning ms-2 px-3 py-2"><i class="fa-solid fa-clock fs-6"></i>
+                <span class="fs-6">Fast</span>
+              </span>
+            </div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-4">
+                <img src="./assest/images/taco-bell-logo.png" alt="">
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-1 fw-bold text-dark">Taco Bell</h5>
+                  <span class="text-warning me-1"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-warning fs-6 fw-bold">50</span>
+                </div>
+              </div>
+              <span class="badge badge-background-success p-2">
+                <span class="fw-bold text-success fs-5">Open Now</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center mt-5">
+          <a class="btn btn-warning px-5 fs-6 fw-bold text-white" href="">
+            View All
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+  </section>
+  <section class="py-5 overflow-hidden">
+    <div class="container">
+      <div class="row flex-center mb-5">
+        <div class="col-lg-7">
+          <h5 class="fw-bold fs-1 text-center text-lg-start">Search By Food</h5>
+        </div>
+        <div class="col-lg-4 text-lg-end text-center">
+          <a class="text-secondary me-2 btn btn-lg fs-6" href="">VIEW All
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+        <div class="col-lg-1 position-relative">
+          <button class="carousel-control-next s-icon-next carousel-icon" type="button"
+            data-bs-target="#carouselSearchByFood" data-bs-slide="next"><span
+              class="carousel-control-next-icon d-inline-block" aria-hidden="true"></span><span
+              class="visually-hidden">Next</span></button>
+          <button class="carousel-control-prev s-icon-prev carousel-icon" type="button"
+            data-bs-target="#carouselSearchByFood" data-bs-slide="prev"><span
+              class="carousel-control-prev-icon d-inline-block" aria-hidden="true"></span><span
+              class="visually-hidden">Previous</span></button>
+        </div>
+      </div>
+      <div class="row flex-center">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-5 h-100">
+          <div class="card card-span rounded-circle h-100">
+            <img class="rounded-circle" src="./assest/images/search-pizza.png" alt="">
+            <div class="card-body ps-0">
+              <h5 class="text-center fw-bold text-dark text-truncate mb-3">Pizza</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-5 h-100">
+          <div class="card card-span rounded-circle h-100">
+            <img class="rounded-circle" src="./assest/images/burger.png" alt="">
+            <div class="card-body ps-0">
+              <h5 class="text-center fw-bold text-dark text-truncate mb-3">Burger</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-5 h-100">
+          <div class="card card-span rounded-circle h-100">
+            <img class="rounded-circle" src="./assest/images/noodles.png" alt="">
+            <div class="card-body ps-0">
+              <h5 class="text-center fw-bold text-dark text-truncate mb-3">Noodles</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-5 h-100">
+          <div class="card card-span rounded-circle h-100">
+            <img class="rounded-circle" src="./assest/images/sub-sandwich.png" alt="">
+            <div class="card-body ps-0">
+              <h5 class="text-center fw-bold text-dark text-truncate mb-3">Sub-Sandwich</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-5 h-100">
+          <div class="card card-span rounded-circle h-100">
+            <img class="rounded-circle" src="./assest/images/steak.png" alt="">
+            <div class="card-body ps-0">
+              <h5 class="text-center fw-bold text-dark text-truncate mb-3">Steak</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-5 h-100">
+          <div class="card card-span rounded-circle h-100">
+            <img class="rounded-circle" src="./assest/images/chowmein.png" alt="">
+            <div class="card-body ps-0">
+              <h5 class="text-center fw-bold text-dark text-truncate mb-3">Chowmein</h5>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+  </section>
+  <section class="background-image">
+    <div class="bg-holder"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xxl-10">
+          <div class="card card-span shadow-warning rounded-5">
+            <div class="card-body py-5">
+              <div class="row justify-content-evenly">
+                <div class="col-md-3 text-md-center pb-3">
+                  <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between">
+                    <img src="./assest/images/discounts.png" width="100" alt="">
+                    <div class="d-flex d-lg-block d-xl-flex flex-center">
+                      <h2 class="fw-bolder mb-0 gradient">Daily
+                        <br class="d-none d-md-block">
+                        Discount
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 border-class text-lg-center pb-3">
+                  <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between">
+                    <img src="./assest/images/live-tracking.png" width="100" alt="">
+                    <div class="d-flex d-lg-block d-xl-flex flex-center">
+                      <h2 class="fw-bolder mb-0 gradient">Live
+                        <br class="d-none d-md-block">
+                        Tracking
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 border-class text-md-center">
+                  <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between">
+                    <img src="./assest/images/quick-delivery.png" width="100" alt="">
+                    <div class="d-flex d-lg-block d-xl-flex flex-center">
+                      <h2 class="fw-bolder mb-0 gradient">Quick
+                        <br class="d-none d-md-block">
+                        Delivery
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row flex-center margin-top">
+        <div class="col-lg-5 d-none d-lg-block index" style="margin-bottom: -122px;">
+          <img class="w-100" src="./assest/images/phone-cta-one.png" alt="">
+        </div>
+        <div class="col-lg-5 mt-5 mt-md-0 index mt-md-0">
+          <h1 class="text-warning">Install the app</h1>
+          <p>
+            It's never been easier to order food. Look for the finest 
+            <br class="d-none d-xl-block">
+            discounts and you'll be lost in a world of delectable food.
+          </p>
+          <a class="pe-2" href="https://www.apple.com/app-store/">
+            <img src="./assest/images/app-store.svg" width="160px" alt="">
+          </a>
+          <a href="https://play.google.com/store/apps">
+            <img src="./assest/images/google-play.svg" width="160px" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="padding-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card card-span shadow-lg">
+            <div class="card-body py-0">
+              <div class="row justify-content-center">
+                <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-0 order-md-1">
+                  <img class="img-fluid w-100 fit-cover h-100 rounded-top rounded-md-end rounded-md-top-0" src="./assest/images/crispy-sandwiches.png" alt="...">
+                </div>
+                <div class="col-md-7 col-xl-5 col-xxl-4 p-lg-5 p-4">
+                  <h1 class="card-title mt-xl-5 mb-4 fw-bold">Best deals
+                    <span class="text-warning">Crispy Sandwiches</span>
+                  </h1>
+                  <p class="fs-5">Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.</p>
+                  <div class="d-grid bottom-0">
+                    <a class="btn btn-lg btn-warning mt-xl-5 text-white fw-bold" href="">
+                      PROCEED TO Order
+                      <i class="fa-solid fa-chevron-right fw-bold"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card card-span shadow-lg">
+            <div class="card-body py-0">
+              <div class="row justify-content-center">
+                <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-md-0">
+                  <img class="img-fluid w-100 fit-cover h-100 rounded-top rounded-md-end rounded-md-top-0" src="./assest/images/fried-chicken.png" alt="...">
+                </div>
+                <div class="col-md-7 col-xl-5 col-xxl-4 p-lg-5 p-4">
+                  <h1 class="card-title mt-xl-5 mb-4 fw-bold">Best deals
+                    <span class="text-warning">Crispy Sandwiches</span>
+                  </h1>
+                  <p class="fs-5">Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.</p>
+                  <div class="d-grid bottom-0">
+                    <a class="btn btn-lg btn-warning mt-xl-5 text-white fw-bold" href="">
+                      PROCEED TO Order
+                      <i class="fa-solid fa-chevron-right fw-bold"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card card-span shadow-lg">
+            <div class="card-body py-0">
+              <div class="row justify-content-center">
+                <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-0 order-md-1">
+                  <img class="img-fluid w-100 fit-cover h-100 rounded-top rounded-md-end rounded-md-top-0" src="./assest/images/pizza.png" alt="...">
+                </div>
+                <div class="col-md-7 col-xl-5 col-xxl-4 p-lg-5 p-4">
+                  <h1 class="card-title mt-xl-5 mb-4 fw-bold">Best deals
+                    <span class="text-warning">Crispy Sandwiches</span>
+                  </h1>
+                  <p class="fs-5">Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.</p>
+                  <div class="d-grid bottom-0">
+                    <a class="btn btn-lg btn-warning mt-xl-5 text-white fw-bold" href="">
+                      PROCEED TO Order
+                      <i class="fa-solid fa-chevron-right fw-bold"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="background-image">
+    <div class="bg-deal"></div>
+    <div class="container">
+      <div class="row flex-center">
+        <div class="col-xxl-9 py-5 text-center">
+          <h1 class="fw-bolder text-white mb-5 fs-1">Are you ready to order
+            <br>
+            with the best deals?
+          </h1>
+          <a href="" class="btn btn-danger fw-bold px-5">PROCEED TO ORDER
+            <i class="fa-solid fa-chevron-right fw-bold"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://kit.fontawesome.com/cfdb1b951f.js" crossorigin="anonymous"></script>
+  <script src="./assest/JS/bootstrap.bundle.min.js"></script>
+  <script src="./assest/JS/bootstrap.min.js"></script>
+  <script src="./assest/JS/popper.min.js"></script>
+
+</body>
+
+</html>
